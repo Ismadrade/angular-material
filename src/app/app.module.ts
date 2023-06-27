@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './Material/Material.module';
 import { ButtonsIconsComponent } from './buttons-icons/buttons-icons.component';
 import { FormFieldInputComponent } from './form-field-input/form-field-input.component';
+import { ProgressSpinerComponent } from './progress-spiner/progress-spiner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonsIconsComponent,
-    FormFieldInputComponent
+    FormFieldInputComponent,
+    ProgressSpinerComponent
    ],
   imports: [
     BrowserModule,
